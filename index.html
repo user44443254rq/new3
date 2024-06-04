@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Катьке</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .content {
+            text-align: center;
+        }
+        .btn {
+            margin: 10px;
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Солнышко моё ты будешь сомной навсегда?</h1>
+        <button class="btn" onclick="alert('АААААААА, Я ТАК РАД КОТЕНОК!')">Согласна)</button>
+        <button class="btn" onclick="showMessageAndRedirect()">Ну не знаю даже..</button>
+        <img src="https://i.pinimg.com/originals/bd/84/52/bd8452bf9e0a80ade1907b6b85cfd7ed.gif" alt="Сердечко">
+    </div>
+
+    <script>
+        function showMessageAndRedirect() {
+            alert('Подумай хорошенько..');
+            window.location.replace('https://user44443254rq.github.io/new2/'); // Замените URL на нужный для перенаправления
+        }
+    </script>
+</body>
+</html>
